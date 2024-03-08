@@ -26,7 +26,7 @@ describe("Doctor appointment", () => {
         AppointmentPage.comment.should('have.text', 'CURA Healthcare Service');
     });
 
-    it.only("Appointment history", () => {
+    it("Appointment history", () => {
         // actions
         AppointmentPage.appointmentButton.click();
         AppointmentPage.usernameField.type("John Doe");
